@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_evaluation_3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.bitcoders.evaluationofteachers.Evaluation_3">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp">
+        <android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+            android:layout_height="500dp">
+            <TextView
+                android:text="@string/mainAtt3"
+                android:layout_width="0dp"
+                android:layout_height="47dp"
+                android:id="@+id/textView5"
+                tools:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:gravity="center"
+                android:layout_marginTop="24dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="16dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="16dp"
+                app:layout_constraintHorizontal_bias="1.0" />
+
+            <TextView
+                android:text="@string/sno1"
+                android:layout_width="28dp"
+                android:layout_height="36dp"
+                android:id="@+id/sno1"
+                android:gravity="center"
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:text="@string/sno2"
+                android:layout_width="28dp"
+                android:layout_height="34dp"
+                android:id="@+id/sno2"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@+id/sno1"
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="8dp"
+                android:gravity="center" />
+
+            <TextView
+                android:text="@string/sno3"
+                android:layout_width="28dp"
+                android:layout_height="38dp"
+                android:id="@+id/sno3"
+                android:gravity="center"
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/sno2" />
+
+            <TextView
+                android:text="@string/sno4"
+                android:layout_width="28dp"
+                android:layout_height="38dp"
+                android:id="@+id/sno4"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/sno3"
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="8dp" />
+
+            <TextView
+                android:text="@string/att14"
+                android:layout_width="306dp"
+                android:layout_height="32dp"
+                android:id="@+id/att1"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toRightOf="@+id/sno1"
+                android:layout_marginLeft="8dp" />
+
+            <TextView
+                android:text="@string/att15"
+                android:layout_width="306dp"
+                android:layout_height="36dp"
+                android:id="@+id/att2"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/att1"
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toRightOf="@+id/sno2"
+                android:layout_marginLeft="8dp" />
+            <TextView
+                android:text="@string/att16"
+                android:layout_width="306dp"
+                android:layout_height="32dp"
+                android:id="@+id/att3"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/att2"
+                app:layout_constraintLeft_toRightOf="@+id/sno3" />
+
+            <TextView
+                android:text="@string/att17"
+                android:layout_width="306dp"
+                android:layout_height="33dp"
+                android:id="@+id/att4"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/att3"
+                android:layout_marginStart="8dp"
+                app:layout_constraintLeft_toRightOf="@+id/sno4"
+                android:layout_marginLeft="8dp" />
+
+            <RatingBar
+                android:id="@+id/rb1"
+                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                style="@android:style/Widget.DeviceDefault.Light.RatingBar.Indicator"
+                android:isIndicator="false"
+                android:stepSize="1.0"
+                android:rating="0"
+                android:onClick="detectRating"
+                app:layout_constraintTop_toTopOf="@+id/att1"
+                android:layout_marginStart="16dp"
+                app:layout_constraintLeft_toRightOf="@+id/att1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="16dp"
+                app:layout_constraintHorizontal_bias="0.9" />
+
+            <RatingBar
+                android:id="@+id/rb2"
+                android:layout_height="36dp"
+                android:layout_width="wrap_content"
+                style="@android:style/Widget.DeviceDefault.Light.RatingBar.Indicator"
+                android:isIndicator="false"
+                android:stepSize="1.0"
+                android:rating="0"
+                app:layout_constraintTop_toTopOf="@+id/att2"
+                android:layout_marginStart="16dp"
+                app:layout_constraintLeft_toRightOf="@+id/att2"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="16dp"
+                app:layout_constraintHorizontal_bias="0.9" />
+
+            <RatingBar
+                android:id="@+id/rb3"
+                android:layout_height="36dp"
+                android:layout_width="wrap_content"
+                style="@android:style/Widget.DeviceDefault.Light.RatingBar.Indicator"
+                android:isIndicator="false"
+                android:stepSize="1.0"
+                android:rating="0"
+                android:layout_marginStart="16dp"
+                app:layout_constraintLeft_toRightOf="@+id/att3"
+                android:layout_marginLeft="16dp"
+                app:layout_constraintTop_toTopOf="@+id/att3"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="16dp"
+                app:layout_constraintHorizontal_bias="0.9" />
+
+            <RatingBar
+                android:id="@+id/rb4"
+                android:layout_height="36dp"
+                android:layout_width="wrap_content"
+                style="@android:style/Widget.DeviceDefault.Light.RatingBar.Indicator"
+                android:isIndicator="false"
+                android:stepSize="1.0"
+                android:rating="0"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="16dp"
+                app:layout_constraintTop_toTopOf="@+id/att4"
+                android:layout_marginStart="16dp"
+                app:layout_constraintLeft_toRightOf="@+id/att4"
+                android:layout_marginLeft="16dp"
+                app:layout_constraintHorizontal_bias="0.9" />
+
+            <ImageButton
+                android:layout_width="79dp"
+                android:layout_height="71dp"
+                app:srcCompat="@drawable/forward_final"
+                android:id="@+id/nextButton"
+                android:background="@android:drawable/menuitem_background"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginRight="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="16dp"
+                app:layout_constraintHorizontal_bias="0.96"
+                android:layout_marginTop="32dp"
+                app:layout_constraintTop_toBottomOf="@+id/rb4"
+                app:layout_constraintVertical_bias="0.90999997" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

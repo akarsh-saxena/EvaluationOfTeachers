@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Evaluation of Teachers</string>
+    <string name="welcome">Select your designation</string>
+    <string name="faculty">Faculty</string>
+    <string name="student">Student</string>
+    <string-array name="branch">
+        <item>Select Branch</item>
+        <item>Computer Science</item>
+        <item>EC</item>
+        <item>EE</item>
+    </string-array>
+    <string-array name="semesters">
+        <item>Select Semester</item>
+        <item>1st Sem</item>
+        <item>2nd Sem</item>
+        <item>3rd Sem</item>
+        <item>4th Sem</item>
+        <item>5th Sem</item>
+        <item>6th Sem</item>
+        <item>7th Sem</item>
+        <item>8th Sem</item>
+    </string-array>
+    <string-array name="secList">
+        <item>Select Section</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+    </string-array>
+    <string name="mainAtt1">(A) Organisation of Course</string>
+    <string name="mainAtt2">(B) Presentation of Subject Matter</string>
+    <string name="mainAtt3">(C) Rapport and Personality</string>
+    <string name="mainAtt4">(D) Overall Assessment</string>
+    <string name="sno1">1.</string>
+    <string name="sno2">2.</string>
+    <string name="sno3">3.</string>
+    <string name="sno4">4.</string>
+    <string name="sno5">5.</string>
+    <string name="sno6">6.</string>
+    <string name="sno7">7.</string>
+    <string name="att1">In making clear objectives of the course</string>
+    <string name="att2">Sequence of teaching various topics of the subject</string>
+    <string name="att3">Coverage of syllabus and proper weightage of different topics</string>
+    <string name="att4">Regularity of lectures</string>
+    <string name="att5">Regularity and evaluation of class tests</string>
+    <string name="att6">Regularity in conducting and evaluation of tutorials</string>
+    <string name="att7">Preparation for lectures</string>
+    <string name="att8">Beginning and ending of lectures</string>
+    <string name="att9">Ability to speak clearly and audibly</string>
+    <string name="att10">Ability to explain subject</string>
+    <string name="att11">Ability to create interest in the subject</string>
+    <string name="att12">Ability to answer questions</string>
+    <string name="att13">Teacher has enhanced my thinking ability</string>
+    <string name="att14">Enthusiasm/Interest in tutorial classes</string>
+    <string name="att15">Personal interest in students and their problems</string>
+    <string name="att16">Control of class</string>
+    <string name="att17">Availability for out-of-class consultation</string>
+    <string name="att18">Overall effectiveness ofthe teaching</string>
+    <string name="att19">Enhancement of learning process</string>
+    <string name="att20">Enhancement of analytical ability</string>
+    <string name="thanks">Thanks for your feedback!!</string>
+</resources>
